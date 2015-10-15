@@ -5,6 +5,27 @@ package entidades;
  */
 public class TipoEvento {
 
-    private int tipoEventId;
+    private int tipoEvenId;
     private String descripcion;
+
+    public TipoEvento(int tipoEvenId, String descripcion) {
+        this.tipoEvenId = tipoEvenId;
+        this.descripcion = descripcion;
+    }
+
+    public int getTipoEvenId() {
+        return tipoEvenId;
+    }
+
+    public void setTipoEvenId(int tipoEvenId) {
+        this.tipoEvenId = tipoEvenId;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
 }
