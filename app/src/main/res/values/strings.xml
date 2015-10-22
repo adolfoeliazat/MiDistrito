@@ -5,8 +5,8 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="title_activity_actividad_destacados">ActividadDestacados</string>
-    <string name="title_activity_actividad_panoramas">ActividadPanoramas</string>
-    <string name="title_activity_actividad_tc">ActividadTC</string>
-    <string name="title_activity_actividad_mi_comuna">ActividadMiComuna</string>
+    <string name="title_activity_actividad_destacados">Destacados</string>
+    <string name="title_activity_actividad_panoramas">Panoramas</string>
+    <string name="title_activity_actividad_tc">Talleres y concursos</string>
+    <string name="title_activity_actividad_mi_comuna">Mi Comuna</string>
 </resources>
