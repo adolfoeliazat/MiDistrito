@@ -18,6 +18,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ActividadDestacados"
+            android:label="@string/title_activity_actividad_destacados"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ActividadPanoramas"
+            android:label="@string/title_activity_actividad_panoramas"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ActividadTC"
+            android:label="@string/title_activity_actividad_tc"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ActividadMiComuna"
+            android:label="@string/title_activity_actividad_mi_comuna"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

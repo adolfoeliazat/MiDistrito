@@ -1,5 +1,6 @@
 package com.midistrito.com.midistrito;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -82,11 +83,15 @@ public class MenuPrincipal extends AppCompatActivity
 
         if (id == R.id.nav_camara) {
             // Handle the camera action
+Intent act = new Intent(this, ActividadDestacados.class);
+            startActivity(act);
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
+
+
 
         } else if (id == R.id.nav_share) {
 
