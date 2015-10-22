@@ -2,16 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item android:id="@+id/nav_camara"
+        <item android:id="@+id/nav_destacdos"
             android:icon="@android:drawable/ic_menu_camera"
             android:title="Destacados" />
-        <item android:id="@+id/nav_gallery"
+        <item android:id="@+id/nav_panoramas"
             android:icon="@android:drawable/ic_menu_gallery"
             android:title="Panoramas" />
-        <item android:id="@+id/nav_slideshow"
+        <item android:id="@+id/nav_TC"
             android:icon="@android:drawable/ic_menu_slideshow"
             android:title="Talleres y comunas" />
-        <item android:id="@+id/nav_manage"
+        <item android:id="@+id/nav_miComuna"
             android:icon="@android:drawable/ic_menu_manage"
             android:title="Mi comuna" />
     </group>

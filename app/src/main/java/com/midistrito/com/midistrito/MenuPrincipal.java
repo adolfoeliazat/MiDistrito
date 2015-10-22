@@ -81,16 +81,19 @@ public class MenuPrincipal extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camara) {
+        if (id == R.id.nav_destacdos) {
             // Handle the camera action
 Intent act = new Intent(this, ActividadDestacados.class);
             startActivity(act);
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.nav_panoramas) {
+Intent act = new Intent(this,ActividadPanoramas.class);
+            startActivity(act);
+        } else if (id == R.id.nav_TC) {
+Intent act =new Intent(this,ActividadTC.class);
+            startActivity(act);
+        } else if (id == R.id.nav_miComuna) {
+Intent act =new Intent(this,ActividadMiComuna.class);
+            startActivity(act);
 
 
         } else if (id == R.id.nav_share) {
