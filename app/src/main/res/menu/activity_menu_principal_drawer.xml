@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_destacdos"
             android:icon="@android:drawable/ic_menu_camera"
-            android:title="Destacados" />
+            android:title="@string/title_activity_actividad_destacados" />
         <item android:id="@+id/nav_panoramas"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Panoramas" />
+            android:title="@string/title_activity_actividad_panoramas" />
         <item android:id="@+id/nav_TC"
             android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Talleres y comunas" />
+            android:title="@string/title_activity_actividad_tc" />
         <item android:id="@+id/nav_miComuna"
             android:icon="@android:drawable/ic_menu_manage"
-            android:title="Mi comuna" />
+            android:title="@string/title_activity_actividad_mi_comuna" />
     </group>
 
     <item android:title="Otros">

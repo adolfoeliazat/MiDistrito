@@ -9,4 +9,13 @@
     <string name="title_activity_actividad_panoramas">Panoramas</string>
     <string name="title_activity_actividad_tc">Talleres y concursos</string>
     <string name="title_activity_actividad_mi_comuna">Mi Comuna</string>
+    <string name="title_activity_actividad_evento">Evento</string>
+
+    <string name="actividad_evento_titulo">Ciclo de cine soviético</string>
+    <string name="actividad_evento_descripcion">"Este martes tendremos una nueva jornada de cultura en DUOC UC Puente Alto, gracias al fino cine soviético"</string>
+    <string name="actividad_evento_dia">Martes</string>
+    <string name="actividad_evento_hora_inicio">13:37</string>
+    <string name="actividad_evento_hora_fin">22:22</string>
+    <string name="actividad_evento_precio">9999</string>
+    <string name="actividad_evento_direccion">"DUOC UC: Puente Alto"</string>
 </resources>

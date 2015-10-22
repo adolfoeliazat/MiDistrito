@@ -22,7 +22,6 @@
             android:name=".ActividadDestacados"
             android:label="@string/title_activity_actividad_destacados"
             android:theme="@style/AppTheme.NoActionBar" >
-
         </activity>
         <activity
             android:name=".ActividadPanoramas"
@@ -38,6 +37,15 @@
             android:name=".ActividadMiComuna"
             android:label="@string/title_activity_actividad_mi_comuna"
             android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ActividadEvento"
+            android:label="@string/title_activity_actividad_evento"
+            android:parentActivityName=".ActividadPanoramas"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.midistrito.com.midistrito.ActividadPanoramas" />
         </activity>
     </application>
 
