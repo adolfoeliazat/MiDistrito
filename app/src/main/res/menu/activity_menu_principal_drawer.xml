@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_camara"
             android:icon="@android:drawable/ic_menu_camera"
-            android:title="Categoria1" />
+            android:title="Destacados" />
         <item android:id="@+id/nav_gallery"
             android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Categoria2" />
+            android:title="Panoramas" />
         <item android:id="@+id/nav_slideshow"
             android:icon="@android:drawable/ic_menu_slideshow"
-            android:title="Categoria3" />
+            android:title="Talleres y comunas" />
         <item android:id="@+id/nav_manage"
             android:icon="@android:drawable/ic_menu_manage"
-            android:title="Categoria4" />
+            android:title="Mi comuna" />
     </group>
 
     <item android:title="Otros">
