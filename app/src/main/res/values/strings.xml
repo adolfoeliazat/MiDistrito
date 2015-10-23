@@ -19,4 +19,5 @@
     <string name="actividad_evento_hora_fin">22:22</string>
     <string name="actividad_evento_precio">9999</string>
     <string name="actividad_evento_direccion">"DUOC UC: Puente Alto"</string>
+    <string name="title_activity_fragmento_telefonos">FragmentoTelefonos</string>
 </resources>

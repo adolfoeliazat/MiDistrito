@@ -47,6 +47,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.midistrito.com.midistrito.ActividadPanoramas" />
         </activity>
+        <activity
+            android:name=".FragmentoTelefonos"
+            android:label="@string/title_activity_fragmento_telefonos"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
