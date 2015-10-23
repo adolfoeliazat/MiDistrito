@@ -8,7 +8,98 @@
     android:layout_height="match_parent"
     tools:context="com.midistrito.com.midistrito.ActividadEvento">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_margin="@dimen/text_margin" android:text="@string/actividad_evento_descripcion" />
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        card_view:cardCornerRadius="2dp"
+        >
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/evento_margen_texto"
+            android:layout_marginTop="@dimen/evento_margen_textodoble"
+            android:layout_marginRight="@dimen/evento_margen_texto"
+            android:layout_marginBottom="@dimen/evento_margen_textomedio"
+            android:textStyle="bold" android:text="@string/actividad_evento_titulo" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/evento_margen_texto"
+            android:layout_marginRight="@dimen/evento_margen_texto"
+            android:layout_marginBottom="@dimen/evento_margen_texto"
+            android:text="@string/actividad_evento_descripcion" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/evento_margen_textodoble"
+            android:src="@mipmap/ic_hora"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/evento_margen_texto"
+            android:layout_marginTop="@dimen/evento_margen_texto"
+            android:layout_marginRight="@dimen/evento_margen_textomedio"
+            android:layout_marginBottom="@dimen/evento_margen_texto"
+            android:text="@string/actividad_evento_dia" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/evento_margen_texto"
+            android:text="@string/actividad_evento_hora_inicio" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/evento_margen_texto" android:text=" a " />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/evento_margen_texto" android:text="@string/actividad_evento_hora_fin" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/evento_margen_textodoble"
+                android:src="@mipmap/ic_dineros"/>
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/evento_margen_texto"
+                android:text="@string/actividad_evento_precio" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/evento_margen_textodoble"
+                android:src="@mipmap/ic_location"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/evento_margen_texto"
+                android:layout_marginLeft="@dimen/evento_margen_texto"
+                android:layout_marginBottom="@dimen/evento_margen_texto"
+                android:text="@string/actividad_evento_direccion" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#aaaaaa"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/map"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
 </android.support.v4.widget.NestedScrollView>

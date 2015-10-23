@@ -14,6 +14,9 @@
         <item android:id="@+id/nav_miComuna"
             android:icon="@android:drawable/ic_menu_manage"
             android:title="@string/title_activity_actividad_mi_comuna" />
+        <item android:id="@+id/nav_Evento"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/title_activity_actividad_evento" />
     </group>
 
     <item android:title="Otros">

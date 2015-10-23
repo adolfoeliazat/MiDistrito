@@ -94,7 +94,9 @@ Intent act =new Intent(this,ActividadTC.class);
         } else if (id == R.id.nav_miComuna) {
 Intent act =new Intent(this,ActividadMiComuna.class);
             startActivity(act);
-
+        } else if (id == R.id.nav_Evento) {
+            Intent act = new Intent(this,ActividadEvento.class);
+            startActivity(act);
 
         } else if (id == R.id.nav_share) {
 
