@@ -26,15 +26,17 @@
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/evento_margen_texto"
-            android:layout_marginTop="@dimen/evento_margen_textodoble"
+            android:layout_marginTop="@dimen/evento_margen_texto"
             android:layout_marginRight="@dimen/evento_margen_texto"
             android:layout_marginBottom="@dimen/evento_margen_textomedio"
+            android:textSize="16sp"
             android:textStyle="bold" android:text="@string/actividad_evento_titulo" />
 
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/evento_margen_texto"
             android:layout_marginRight="@dimen/evento_margen_texto"
             android:layout_marginBottom="@dimen/evento_margen_texto"
+            android:textSize="14sp"
             android:text="@string/actividad_evento_descripcion" />
 
         <LinearLayout
