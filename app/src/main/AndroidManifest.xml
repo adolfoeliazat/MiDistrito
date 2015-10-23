@@ -39,7 +39,7 @@
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
-            android:name=".ActividadEvento"
+            android:name=".ActividadEventos"
             android:label="@string/title_activity_actividad_evento"
             android:parentActivityName=".ActividadPanoramas"
             android:theme="@style/AppTheme.NoActionBar" >
