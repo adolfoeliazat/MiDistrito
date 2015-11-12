@@ -83,17 +83,15 @@ public class MenuPrincipal extends AppCompatActivity
 
         if (id == R.id.nav_destacdos) {
             // Handle the camera action
-Intent act = new Intent(this, ActividadDestacados.class);
-            startActivity(act);
+
+
         } else if (id == R.id.nav_panoramas) {
-Intent act = new Intent(this,ActividadPanoramas.class);
-            startActivity(act);
+
         } else if (id == R.id.nav_TC) {
 Intent act =new Intent(this,ActividadTC.class);
             startActivity(act);
         } else if (id == R.id.nav_miComuna) {
-Intent act =new Intent(this,ActividadMiComuna.class);
-            startActivity(act);
+
         } else if (id == R.id.nav_Evento) {
             Intent act = new Intent(this,ActividadEventos.class);
             startActivity(act);
