@@ -19,23 +19,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActividadDestacados"
-            android:label="@string/title_activity_actividad_destacados"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".ActividadPanoramas"
-            android:label="@string/title_activity_actividad_panoramas"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
             android:name=".ActividadTC"
             android:label="@string/title_activity_actividad_tc"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity
-            android:name=".ActividadMiComuna"
-            android:label="@string/title_activity_actividad_mi_comuna"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
@@ -46,11 +31,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.midistrito.com.midistrito.ActividadPanoramas" />
-        </activity>
-        <activity
-            android:name=".FragmentoTelefonos"
-            android:label="@string/title_activity_fragmento_telefonos"
-            android:theme="@style/AppTheme.NoActionBar" >
         </activity>
     </application>
 
