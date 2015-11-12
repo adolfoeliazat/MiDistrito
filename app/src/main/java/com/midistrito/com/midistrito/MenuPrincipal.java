@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,6 +18,10 @@ import android.view.MenuItem;
 
 public class MenuPrincipal extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    TabLayout mTabs;
+    private ViewPager tabsviewPager;
+    private TabsInicio mTabsAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +47,23 @@ public class MenuPrincipal extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        tabsviewPager = (ViewPager) findViewById(R.id.tabspager);
+
+        mTabsAdapter = new TabsInicio(getSupportFragmentManager());
+
+        //creating the tabs and adding them to adapter class
+        mTabsAdapter.addFragment(new ObjectsFragment(), "Inicio");
+        mTabsAdapter.addFragment(new ObjectsFragment(), "tab2");
+        mTabsAdapter.addFragment(new ObjectsFragment(), "tab3");
+
+        //setup viewpager to give swipe effect
+        tabsviewPager.setAdapter(mTabsAdapter);
+
+        mTabs = (TabLayout) findViewById(R.id.tabs);
+        mTabs.setupWithViewPager(tabsviewPager);
+
     }
 
     @Override
